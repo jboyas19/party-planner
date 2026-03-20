@@ -1,0 +1,41 @@
+.main_container{
+  display:flex;
+  gap:48px;
+  align-items:flex-start;
+}
+
+h1{
+  text-align:center;
+}
+
+.party_list_container,
+.party_details_container{
+  width:50%;
+}
+
+.party_list{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.party_list_item{
+  border:1px solid #ccc;
+  border-radius:4px;
+  padding:10px;
+  margin:12px 0;
+  cursor:pointer;
+}
+
+.party_list_item.selected{
+  font-style:italic;
+  font-weight:700;
+}
+
+.party_details_location{
+  font-style:italic;
+}
+
+.guest_list{
+  margin-top:12px;
+}
